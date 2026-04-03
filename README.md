@@ -17,4 +17,12 @@
 
 
 ## 🔁 프로젝트 설치 및 실행
-https://www.notion.so/VueReference-183ffb5eb35680fc8785d7bee03e81be?pvs=4
+VSCode Extension
+
+Vue-Official 설치
+
+nvm 설치
+
+npm install
+
+npm run serve
