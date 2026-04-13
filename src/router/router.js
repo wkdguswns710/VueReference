@@ -14,34 +14,34 @@ const routes = [
         component: () => import(/* webpackChunkName: "ProjectGen" */ '@/views/Project/ProjectGen.vue')
     },
     {
-        path: '/projectfile',
-        name: 'projectfile',
-        component: () => import(/* webpackChunkName: "ProjectFile" */ '@/views/Project/ProjectFile.vue')
+        path: '/projectdir',
+        name: 'projectdir',
+        component: () => import(/* webpackChunkName: "ProjectDir" */ '@/views/Project/ProjectDir.vue')
     },
     {
-        path: '/projectproc',
-        name: 'projectproc',
-        component: () => import(/* webpackChunkName: "ProjectProc" */ '@/views/Project/ProjectProc.vue')
+        path: '/projectrend',
+        name: 'projectrend',
+        component: () => import(/* webpackChunkName: "ProjectRend" */ '@/views/Project/ProjectRend.vue')
     },
     {
-        path: '/alldirective',
-        name: 'alldirective',
-        component: () => import(/* webpackChunkName: "AllDirect" */ '@/views/Element/AllDirective.vue')
+        path: '/vuedirective',
+        name: 'vuedirective',
+        component: () => import(/* webpackChunkName: "VueDirect" */ '@/views/Element/VueDirective.vue')
     },
     {
-        path: '/allcomponent',
-        name: 'allcomponent',
-        component: () => import(/* webpackChunkName: "AllComponent" */ '@/views/Element/AllComponent.vue')
+        path: '/vuecomponent',
+        name: 'vuecomponent',
+        component: () => import(/* webpackChunkName: "VueComponent" */ '@/views/Element/VueComponent.vue')
     },
     {
-        path: '/allrouter',
-        name: 'allrouter',
-        component: () => import(/* webpackChunkName: "AllRouter" */ '@/views/Element/AllRouter.vue')
+        path: '/vuerouter',
+        name: 'vuerouter',
+        component: () => import(/* webpackChunkName: "VueRouter" */ '@/views/Element/VueRouter.vue')
     },
     {
-        path: '/allvuex',
-        name: 'allvuex',
-        component: () => import(/* webpackChunkName: "AllVuex" */ '@/views/Element/AllVuex.vue')
+        path: '/vuevuex',
+        name: 'vuevuex',
+        component: () => import(/* webpackChunkName: "VueVuex" */ '@/views/Element/VueVuex.vue')
     }
 ]
 

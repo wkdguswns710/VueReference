@@ -34,24 +34,24 @@ export default {
     created() {
         this.menuItems = [
 				{
-					label: 'Project Start',
+					label: 'Project',
                     index: 'projectgen',
                     icon: 'el-icon-video-play',
 					children: [
-						{ index: 'projectgen', label: 'Start' },
-                        { index: 'projectfile', label: 'File' },
-                        { index: 'projectproc', label: 'Process' },
+						{ index: 'projectgen', label: 'Generate' },
+                        { index: 'projectdir', label: 'Directory' },
+                        { index: 'projectrend', label: 'Rendering' },
 					]
 				},
                 {
-					label: 'Element',
-                    index: 'alldirective',
+					label: 'Vue',
+                    index: 'vuedirective',
                     icon: 'el-icon-s-grid',
 					children: [
-                        { index: 'alldirective', label: 'Directive' },
-                        { index: 'allcomponent', label: 'Component' },
-                        { index: 'allrouter', label: 'Router' },
-                        { index: 'allvuex', label: 'Vuex' },
+                        { index: 'vuedirective', label: 'Directive' },
+                        { index: 'vuecomponent', label: 'Component' },
+                        { index: 'vuerouter', label: 'Router' },
+                        { index: 'vuevuex', label: 'Vuex' },
 					]
                 }
         ]
