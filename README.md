@@ -7,7 +7,7 @@
 
 ## ⚙ 개발 환경
 - Web : JavaScript, Vue (v2.6.14)
-- Server : Node.js (v12.22.11)
+- Server : Node.js (v18.20.8)
 - Code Editor : VSCode
 
 
